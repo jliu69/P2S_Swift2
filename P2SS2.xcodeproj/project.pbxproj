@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC097BA1BCE9C770029430C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC097B91BCE9C770029430C /* AppDelegate.swift */; };
+		9DC097BC1BCE9C770029430C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC097BB1BCE9C770029430C /* ViewController.swift */; };
+		9DC097BF1BCE9C770029430C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC097BD1BCE9C770029430C /* Main.storyboard */; };
+		9DC097C11BCE9C770029430C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC097C01BCE9C770029430C /* Assets.xcassets */; };
+		9DC097C41BCE9C770029430C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC097C21BCE9C770029430C /* LaunchScreen.storyboard */; };
+		9DC097D11BCE9E410029430C /* p2s_action_bar_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC097CC1BCE9E410029430C /* p2s_action_bar_logo.png */; settings = {ASSET_TAGS = (); }; };
+		9DC097D21BCE9E410029430C /* p2s_action_bar_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC097CD1BCE9E410029430C /* p2s_action_bar_logo_small.png */; settings = {ASSET_TAGS = (); }; };
+		9DC097D31BCE9E410029430C /* p2s_login_page_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC097CE1BCE9E410029430C /* p2s_login_page_logo.png */; settings = {ASSET_TAGS = (); }; };
+		9DC097D61BCEAAFC0029430C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC097D51BCEAAFC0029430C /* Helper.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DC097B61BCE9C770029430C /* P2SS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2SS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC097B91BCE9C770029430C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DC097BB1BCE9C770029430C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DC097BE1BCE9C770029430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC097C01BCE9C770029430C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC097C31BCE9C770029430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DC097C51BCE9C770029430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC097CC1BCE9E410029430C /* p2s_action_bar_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p2s_action_bar_logo.png; sourceTree = "<group>"; };
+		9DC097CD1BCE9E410029430C /* p2s_action_bar_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p2s_action_bar_logo_small.png; sourceTree = "<group>"; };
+		9DC097CE1BCE9E410029430C /* p2s_login_page_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p2s_login_page_logo.png; sourceTree = "<group>"; };
+		9DC097D51BCEAAFC0029430C /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = P2SS2/Helper.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC097B31BCE9C770029430C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC097AD1BCE9C760029430C = {
+			isa = PBXGroup;
+			children = (
+				9DC097B81BCE9C770029430C /* P2SS2 */,
+				9DC097B71BCE9C770029430C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC097B71BCE9C770029430C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC097B61BCE9C770029430C /* P2SS2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC097B81BCE9C770029430C /* P2SS2 */ = {
+			isa = PBXGroup;
+			children = (
+				9DC097B91BCE9C770029430C /* AppDelegate.swift */,
+				9DC097BB1BCE9C770029430C /* ViewController.swift */,
+				9DC097CF1BCE9E410029430C /* Utils */,
+				9DC097CB1BCE9E410029430C /* Images */,
+				9DC097BD1BCE9C770029430C /* Main.storyboard */,
+				9DC097C01BCE9C770029430C /* Assets.xcassets */,
+				9DC097C21BCE9C770029430C /* LaunchScreen.storyboard */,
+				9DC097C51BCE9C770029430C /* Info.plist */,
+			);
+			path = P2SS2;
+			sourceTree = "<group>";
+		};
+		9DC097CB1BCE9E410029430C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9DC097CC1BCE9E410029430C /* p2s_action_bar_logo.png */,
+				9DC097CD1BCE9E410029430C /* p2s_action_bar_logo_small.png */,
+				9DC097CE1BCE9E410029430C /* p2s_login_page_logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9DC097CF1BCE9E410029430C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9DC097D51BCEAAFC0029430C /* Helper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC097B51BCE9C770029430C /* P2SS2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC097C81BCE9C770029430C /* Build configuration list for PBXNativeTarget "P2SS2" */;
+			buildPhases = (
+				9DC097B21BCE9C770029430C /* Sources */,
+				9DC097B31BCE9C770029430C /* Frameworks */,
+				9DC097B41BCE9C770029430C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P2SS2;
+			productName = P2SS2;
+			productReference = 9DC097B61BCE9C770029430C /* P2SS2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC097AE1BCE9C760029430C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HomeOffice;
+				TargetAttributes = {
+					9DC097B51BCE9C770029430C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9DC097B11BCE9C760029430C /* Build configuration list for PBXProject "P2SS2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC097AD1BCE9C760029430C;
+			productRefGroup = 9DC097B71BCE9C770029430C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC097B51BCE9C770029430C /* P2SS2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC097B41BCE9C770029430C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC097D11BCE9E410029430C /* p2s_action_bar_logo.png in Resources */,
+				9DC097C41BCE9C770029430C /* LaunchScreen.storyboard in Resources */,
+				9DC097C11BCE9C770029430C /* Assets.xcassets in Resources */,
+				9DC097D31BCE9E410029430C /* p2s_login_page_logo.png in Resources */,
+				9DC097BF1BCE9C770029430C /* Main.storyboard in Resources */,
+				9DC097D21BCE9E410029430C /* p2s_action_bar_logo_small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC097B21BCE9C770029430C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC097BC1BCE9C770029430C /* ViewController.swift in Sources */,
+				9DC097BA1BCE9C770029430C /* AppDelegate.swift in Sources */,
+				9DC097D61BCEAAFC0029430C /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DC097BD1BCE9C770029430C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC097BE1BCE9C770029430C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DC097C21BCE9C770029430C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC097C31BCE9C770029430C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC097C61BCE9C770029430C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DC097C71BCE9C770029430C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC097C91BCE9C770029430C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = P2SS2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomeOffice.P2SS2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DC097CA1BCE9C770029430C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = P2SS2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomeOffice.P2SS2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC097B11BCE9C760029430C /* Build configuration list for PBXProject "P2SS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC097C61BCE9C770029430C /* Debug */,
+				9DC097C71BCE9C770029430C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC097C81BCE9C770029430C /* Build configuration list for PBXNativeTarget "P2SS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC097C91BCE9C770029430C /* Debug */,
+				9DC097CA1BCE9C770029430C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC097AE1BCE9C760029430C /* Project object */;
+}
